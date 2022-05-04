@@ -32,6 +32,7 @@ socket.on("TRIGGER", data => {
 });
 
 function analyzeEvent(event) {
+	// https://demo-sites.mxview.io/apiGuide#event-types
   const siteId = event.site_id;
   const type = event.type;
   console.log('analyzeEvent', siteId, type);
